@@ -5,11 +5,11 @@
 
 from tm_concept import ConceptLayer
 from tm_information import InformationLayer
-from tm_mobius import MobiusTransition
 from tm_emergent import EmergentLayer
 from tm_or import OrientationLayer
 from tm_topo_generator_double_mobius import TopoGenerator
 from tm_tetra_earth import TetraEarthOperator
+
 
 class FundamentalAIModel:
     """
@@ -23,7 +23,7 @@ class FundamentalAIModel:
         self.orientation = OrientationLayer()
         self.concept = ConceptLayer()
         self.info = InformationLayer()
-        self.mobius = MobiusTransition()
+        self.mobius = TetraEarthOperator()   # NOWA WARSTWA M
         self.emergent = EmergentLayer()
         self.generator = TopoGenerator()
 
@@ -38,8 +38,8 @@ class FundamentalAIModel:
         # I — Informacja (wydobycie treści)
         i = self.info.extract(t)
 
-        # M — Modalność (transformacja Möbiusa)
-        m = self.mobius.transform(i)
+        # M — Modalność (tetraeder z rotacją jak Ziemia)
+        m = self.mobius.transform(i, direction="E")
 
         # It — Informacja czasowa (rozszerzenie w czasie)
         it = self.orientation.expand(m)
@@ -52,13 +52,9 @@ class FundamentalAIModel:
 
         return e
 
+
 if __name__ == "__main__":
     model = FundamentalAIModel()
     test_signal = "Λ–τ–ρ test"
     output = model.process(test_signal)
     print("Wynik modelu:", output)
-
-git add fundamental_model.py
-git commit -m "Dodano rdzeń modelu AI Λ–τ–ρ"
-git push origin main
-
