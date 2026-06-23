@@ -39,4 +39,3 @@ class TetraEarthOperator:
         """
         state = self.rotate(direction, step=step)
         return f"{state}:{x}"
-
