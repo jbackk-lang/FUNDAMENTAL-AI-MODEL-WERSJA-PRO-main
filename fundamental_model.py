@@ -56,3 +56,8 @@ if __name__ == "__main__":
     test_signal = "Λ–τ–ρ test"
     output = model.process(test_signal)
     print("Wynik modelu:", output)
+
+git add fundamental_model.py
+git commit -m "Dodano rdzeń modelu AI Λ–τ–ρ"
+git push origin main
+
