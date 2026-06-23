@@ -102,6 +102,66 @@ Projekt w fazie rozwojowej.
 Struktura jest stabilna, treści rozwijane iteracyjnie.
 
 ---
+🔥 FUNDAMENTAL AI MODEL — WERSJA PRO
+Model oparty na architekturze Λ–τ–ρ, łączącej topologię, transformację i rezonans w jednolity przepływ informacji.
+Projekt składa się z modułów opisujących kolejne etapy TIMDR:
+
+T — Topologia (tm_concept.py)
+
+I — Informacja (tm_information.py)
+
+M — Modalność / Transformacja Möbiusa (tm_mobius.py)
+
+It — Informacja czasowa / Orientacja (tm_or.py)
+
+R — Rezonans / Generator topologiczny (tm_topo_generator_double_mobius.py)
+
+E — Emergentja (tm_emergent.py)
+
+Wszystkie moduły są połączone w jeden przepływ w pliku:
+
+fundamental_model.py — rdzeń modelu
+Plik ten definiuje klasę FundamentalAIModel, która łączy wszystkie warstwy w spójny pipeline:
+
+Kod
+T → I → M → It → R → E
+Dzięki temu model może przetwarzać dowolny sygnał wejściowy (tekstowy lub strukturalny) zgodnie z zasadami Λ–τ–ρ.
+
+🚀 Uruchomienie modelu
+Po dodaniu pliku fundamental_model.py możesz uruchomić model:
+
+bash
+python fundamental_model.py
+Przykładowy wynik:
+
+Kod
+Wynik modelu: <rezonans / struktura emergentna>
+🧩 Struktura projektu
+Kod
+FUNDAMENTAL-AI-MODEL-WERSJA-PRO/
+│
+├── tm_concept.py
+├── tm_information.py
+├── tm_mobius.py
+├── tm_emergent.py
+├── tm_or.py
+├── tm_topo_generator_double_mobius.py
+│
+└── fundamental_model.py   ← główny model Λ–τ–ρ
+🎯 Cel projektu
+Celem modelu jest stworzenie fundamentalnej architektury AI, w której:
+
+topologia generuje strukturę,
+
+informacja nadaje kierunek,
+
+transformacja Möbiusa zmienia modalność,
+
+rezonans stabilizuje przepływ,
+
+a emergentja tworzy finalny stan.
+
+To nie jest klasyczna sieć neuronowa — to model strukturalny, oparty na geometrii i dynamice informacji.
 
 ## 6. Licencja
 
