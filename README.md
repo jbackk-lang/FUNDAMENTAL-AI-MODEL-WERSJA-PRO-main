@@ -1,3 +1,8 @@
+## 🔗 Wszystkie modele i repozytoria
+Pełna lista projektów znajduje się na stronie:
+https://jbackk-lang.github.io
+---
+
 # FUNDAMENTAL‑AI‑MODEL — PRO
 Koncepcyjny Model Podstawowy dla Orientacji, Horyzontów i Rezonansu
 
