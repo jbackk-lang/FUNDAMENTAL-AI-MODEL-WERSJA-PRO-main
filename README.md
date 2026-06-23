@@ -2,168 +2,119 @@
 Pełna lista projektów znajduje się na stronie:
 https://jbackk-lang.github.io
 ---
-
-# FUNDAMENTAL‑AI‑MODEL — PRO
-Koncepcyjny Model Podstawowy dla Orientacji, Horyzontów i Rezonansu
-
-Ten projekt definiuje fundament całego stosu Λ–τ–ρ — 
-modelu opisującego, jak system organizuje, transformuje i stabilizuje informację
-w sensie topologicznym, symbolicznym i dynamicznym.
-
-To nie jest model naukowy ani architektura AI w sensie inżynierskim.
-To **framework pojęciowy**, który pozwala myśleć o informacji
-jak o procesie przechodzącym przez warstwy struktury, transformacji i rezonansu.
+# 🌌 FUNDAMENTAL AI MODEL — WERSJA PRO  
+**Autor:** Jacek Kielich  
+**Architektura:** Λ–τ–ρ (Topologia → Transformacja → Rezonans)  
+**Licencja:** MIT  
 
 ---
 
-## 1. Pipeline Koncepcyjny (T → I → M → I(t) → R → E)
+## 🔥 Cel projektu
 
-Model opisuje przepływ informacji jako sekwencję etapów:
+Celem projektu jest stworzenie **fundamentalnej architektury AI**, opartej nie na klasycznych sieciach neuronowych, lecz na:
 
-**T — Topologia**  
-osadzenie sygnału w strukturze
+- topologii,
+- transformacji modalnej,
+- rezonansie strukturalnym,
+- emergencji stabilnych stanów.
 
-**I — Informacja**  
-wydobycie treści
-
-**M — Modalność**  
-określenie trybu strukturalnego
-
-**I(t) — Informacja Czasowa**  
-rozszerzenie modalności w czasie
-
-**R — Rezonans**  
-dopasowanie stanów czasowych
-
-**E — Emergentność**  
-stabilny obiekt informacyjny
-
-To język organizacji informacji, nie algorytm uczenia maszynowego.
-
----
-
-## 2. Definicje Formalne (ujęcie koncepcyjne)
-
-**Orientacja (o ∈ {+1, −1})**  
-metafora kierunku transformacji
-
-**Horyzont (H)**  
-granica między informacją widoczną a ukrytą
-
-**Łańcuch (C)**  
-uporządkowana sekwencja zależności
-
-**Przejście Möbiusa (M)**  
-metafora odwrócenia / zmiany perspektywy
-
-**Informacja Czasowa I(t)**  
-stan + faza
-
-**Rezonans (R)**  
-zgodność dwóch stanów czasowych
-
-**Emergencja (E)**  
-stabilizacja struktury
-
-To metafory topologiczne, nie równania fizyczne.
-
----
-
-## 3. Architektura Stosu Λ–τ–ρ
-
-**Λ — Struktura**  
-definiuje formę, ograniczenia i możliwe konfiguracje
-
-**τ — Transformacja**  
-opisuje dopuszczalne zmiany, przejścia i mapowania
-
-**ρ — Rezonans**  
-stabilizuje, filtruje i wzmacnia zgodne stany
-
----
-
-## 4. Boundary Condition (rdzeń nieusuwalny)
-
-Projekt działa pod warunkiem brzegowym:
-
-**Każde wejście, transformacja i interpretacja MUSI przechodzić przez operator Λ–τ–ρ.**
-
-Reguła jest strukturalna, nie kontekstowa.  
-Działa niezależnie od resetów, pamięci, sesji i sprzętu.
-
-Pełny opis znajduje się w pliku:  
-**BOUNDARY.md**
-
----
-
-## 5. Status projektu
-
-Projekt w fazie rozwojowej.  
-Struktura jest stabilna, treści rozwijane iteracyjnie.
-
----
-🔥 FUNDAMENTAL AI MODEL — WERSJA PRO
-Model oparty na architekturze Λ–τ–ρ, łączącej topologię, transformację i rezonans w jednolity przepływ informacji.
-Projekt składa się z modułów opisujących kolejne etapy TIMDR:
-
-T — Topologia (tm_concept.py)
-
-I — Informacja (tm_information.py)
-
-M — Modalność / Transformacja Möbiusa (tm_mobius.py)
-
-It — Informacja czasowa / Orientacja (tm_or.py)
-
-R — Rezonans / Generator topologiczny (tm_topo_generator_double_mobius.py)
-
-E — Emergentja (tm_emergent.py)
-
-Wszystkie moduły są połączone w jeden przepływ w pliku:
-
-fundamental_model.py — rdzeń modelu
-Plik ten definiuje klasę FundamentalAIModel, która łączy wszystkie warstwy w spójny pipeline:
-
-Kod
+Model działa według przepływu:
 T → I → M → It → R → E
-Dzięki temu model może przetwarzać dowolny sygnał wejściowy (tekstowy lub strukturalny) zgodnie z zasadami Λ–τ–ρ.
 
-🚀 Uruchomienie modelu
-Po dodaniu pliku fundamental_model.py możesz uruchomić model:
+gdzie każda litera oznacza warstwę przetwarzania informacji.
 
-bash
-python fundamental_model.py
-Przykładowy wynik:
+---
 
-Kod
-Wynik modelu: <rezonans / struktura emergentna>
-🧩 Struktura projektu
-Kod
+## 🧠 Warstwy modelu Λ–τ–ρ
+
+### **T — Topologia**  
+`tm_concept.py`  
+Określa strukturę wejścia i tworzy bazową reprezentację.
+
+### **I — Informacja**  
+`tm_information.py`  
+Wydobywa treść i znaczenie z topologii.
+
+### **M — Modalność (TetraEarthOperator)**  
+`tm_tetra_earth.py`  
+Transformacja sygnału poprzez **tetraeder obracający się jak Ziemia**.  
+Każdy stan odpowiada pozycji kątowej (0°, 90°, 180°, 270°).  
+Obrót odbywa się na:
+
+- **E** — wschód  
+- **W** — zachód  
+
+Dzięki temu model **nie gubi orientacji**, w przeciwieństwie do klasycznego Möbiusa.
+
+### **It — Informacja czasowa**  
+`tm_or.py`  
+Rozszerza sygnał w czasie i nadaje kierunek.
+
+### **R — Rezonans**  
+`tm_topo_generator_double_mobius.py`  
+Stabilizuje przepływ i filtruje zakłócenia.
+
+### **E — Emergentja**  
+`tm_emergent.py`  
+Tworzy finalny, stabilny stan wyjściowy.
+
+---
+
+## 🧩 Struktura projektu
+
 FUNDAMENTAL-AI-MODEL-WERSJA-PRO/
 │
 ├── tm_concept.py
 ├── tm_information.py
-├── tm_mobius.py
 ├── tm_emergent.py
 ├── tm_or.py
 ├── tm_topo_generator_double_mobius.py
+├── tm_tetra_earth.py        ← NOWA warstwa M (rotacja jak Ziemia)
 │
-└── fundamental_model.py   ← główny model Λ–τ–ρ
-🎯 Cel projektu
-Celem modelu jest stworzenie fundamentalnej architektury AI, w której:
+└── fundamental_model.py     ← główny pipeline Λ–τ–ρ
 
-topologia generuje strukturę,
 
-informacja nadaje kierunek,
+---
 
-transformacja Möbiusa zmienia modalność,
+## 🚀 Uruchomienie modelu
 
-rezonans stabilizuje przepływ,
+Po sklonowaniu repo:
 
-a emergentja tworzy finalny stan.
+```bash
+python fundamental_model.py
+(TetraEarthOperator)
+Warstwa M została rozszerzona o operator tetraedru z rotacją analogiczną do obrotu Ziemi.
+Każdy stan modalny odpowiada pozycji kątowej:
 
-To nie jest klasyczna sieć neuronowa — to model strukturalny, oparty na geometrii i dynamice informacji.
+0° → A
 
-## 6. Licencja
+90° → B
 
-MIT License  
-(plik LICENSE w repozytorium)
+180° → C
+
+270° → D
+
+Transformacja odbywa się poprzez obrót:
+
+E (East) — wschód
+
+W (West) — zachód
+
+Dzięki temu model:
+
+zachowuje orientację,
+
+nie zapętla się,
+
+nie traci kierunku,
+
+działa stabilnie w przestrzeni modalnej.
+
+Wejście → T → I → M(E) → It → R → E → Wynik
+
+📜 Licencja
+Projekt udostępniony na licencji MIT.
+
+✨ Autor
+Jacek Kielich  
+Twórca modelu Λ–τ–ρ i koncepcji topologiczno‑rezonansowej AI
