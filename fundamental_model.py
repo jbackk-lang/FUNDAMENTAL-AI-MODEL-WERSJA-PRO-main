@@ -9,6 +9,7 @@ from tm_mobius import MobiusTransition
 from tm_emergent import EmergentLayer
 from tm_or import OrientationLayer
 from tm_topo_generator_double_mobius import TopoGenerator
+from tm_tetra_earth import TetraEarthOperator
 
 class FundamentalAIModel:
     """
