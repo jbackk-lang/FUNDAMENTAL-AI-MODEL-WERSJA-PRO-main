@@ -1,6 +1,9 @@
 # tm_tetra_earth.py
 # Operator tetraedru z rotacją jak Ziemia
 
+from fundamental_model import Transformer
+tm = Transformer()
+
 class TetraEarthOperator:
     """
     Operator tetraedru z rotacją jak Ziemia.
