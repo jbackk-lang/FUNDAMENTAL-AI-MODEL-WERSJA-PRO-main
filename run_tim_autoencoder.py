@@ -1,5 +1,3 @@
-from fundamental_model import Transformer
-tm = Transformer()
 
 import numpy as np
 from tim_autoencoder import TIMAutoencoder
