@@ -1,3 +1,7 @@
+from fundamental_model import Transformer
+tm = Transformer()
+
+
 import numpy as np
 
 class TIMTopoGeneratorDoubleMem:
